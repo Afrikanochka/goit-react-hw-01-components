@@ -1,0 +1,28 @@
+.item {
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 1px 1px rgb(0 0 0 / 12%), 8px 4px 4px rgb(0 0 0 / 6%),
+    3px 4px 6px rgb(0 0 0 / 16%);
+    cursor: pointer;
+
+}
+
+.item:hover,
+.item:focus {
+  opacity: 0.5;
+  transition: opacity 250ms linear;
+}
+
+.online {
+    background-color: chartreuse;
+}
+
+.offline {
+    background-color: crimson;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 700;
+    color: darkmagenta;
+}
