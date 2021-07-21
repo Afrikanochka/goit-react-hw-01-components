@@ -15,9 +15,15 @@
 
 .online {
     background-color: chartreuse;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
 
 .offline {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
     background-color: crimson;
 }
 
